@@ -1982,6 +1982,11 @@ button,
     margin-bottom: 38px;
   }
 
+  .cruises__list {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
   .cruises__card-front::after {
     padding-bottom: 18px;
     padding-left: 25px;
